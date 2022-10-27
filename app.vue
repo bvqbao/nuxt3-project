@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex flex-col items-center w-full h-full min-h-screen p-12 bg-gray-100"
+		class="flex h-full min-h-screen w-full flex-col items-center bg-gray-100 p-12"
 	>
 		<NuxtPage />
 	</div>
