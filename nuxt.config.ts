@@ -1,7 +1,5 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt'],
-	typescript: {
-		shim: false,
-	},
+	devtools: { enabled: true },
+	modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
 });
