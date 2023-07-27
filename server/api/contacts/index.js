@@ -39,7 +39,7 @@ const createContact = defineEventHandler(async (event) => {
 	}
 });
 
-const deleteAllContacts = defineEventHandler(async (event) => {
+const deleteAllContacts = defineEventHandler(async () => {
 	try {
 		const contactsService = makeContactsService();
 		await contactsService.deleteAllContacts();

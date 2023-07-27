@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+	modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxtjs/eslint-module'],
 	content: {
 		// https://content.nuxtjs.org/api/configuration
 		highlight: {
@@ -20,4 +20,5 @@ export default defineNuxtConfig({
 			],
 		},
 	},
+	experimental: { watcher: 'parcel' },
 });

@@ -60,7 +60,7 @@ const deleteContact = defineEventHandler(async (event) => {
 
 	try {
 		const contactsService = makeContactsService();
-		let deleted = await contactsService.deleteContact(id);
+		const deleted = await contactsService.deleteContact(id);
 		if (deleted) {
 			return {
 				message: 'OK',
