@@ -1,6 +1,6 @@
 # Nuxt 3 Minimal Starter
 
-Tech stack: Nuxt 3, TailwindCSS, Knex/MySQL.
+Nuxt 3 + TailwindCSS.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
